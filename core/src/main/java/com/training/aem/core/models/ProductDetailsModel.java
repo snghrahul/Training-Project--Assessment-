@@ -24,9 +24,8 @@ public class ProductDetailsModel {
     @SlingObject
     SlingHttpServletRequest request;
 
-   @OSGiService
+    @OSGiService
     ResourceResolver resourceResolver;
-
 
     @OSGiService
     PageManager pageManager;

@@ -1,7 +1,5 @@
 package com.training.aem.core.services.impl;
 
-
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.training.aem.core.Constant.CommonConstant;
 import com.training.aem.core.bean.ClientResponse;
 import com.training.aem.core.models.ProductDetailsEntity;
@@ -39,19 +37,5 @@ public final class ProductServiceImpl implements ProductService{
 
     }
 
-//    @Override
-//    public ProductDetailsEntity getProductById(String productId, ProductDetailsEntity productDetails) {
-//        return productDetails.getProductId().equals(productId) ? productDetails : null;
-//
-//    }
 
-//    @Override
-//    public String getImage(String productId) {
-//        return null;
-//    }
-//
-//    @Override
-//    public String getPrice(String productId) {
-//        return null;
-//    }
 }

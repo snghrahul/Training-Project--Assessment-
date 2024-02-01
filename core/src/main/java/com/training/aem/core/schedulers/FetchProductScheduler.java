@@ -22,15 +22,14 @@ public class FetchProductScheduler implements Runnable{
         logger.info("active");
 
     }
-
     @Override
     public void run() {
-//        logger.info("Custom Scheduler added");
-//        try {
-//            apiService.fetchDataAndCreatePages();
-//        } catch (Exception e) {
-//            throw new RuntimeException(e);
-//        }
+        logger.info("Custom Scheduler added");
+        try {
+            apiService.fetchDataAndCreatePages();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
     }
 }

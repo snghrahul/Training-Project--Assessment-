@@ -17,8 +17,6 @@ public class ProductInfoModel {
 
     @OSGiService
     private ProductInfoService productInfoService;
-
-
     @Reference
     SlingHttpServletRequest request;
 
